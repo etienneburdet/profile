@@ -81,12 +81,12 @@ a:hover {
  margin-bottom: 16px;
 }
 
-.image-circle {
-    width: 100px;
-    height: 100px;
+.image-clipped{
+    clip-path: polygon(45.00% 0.99%, 99.34% 32.34%, 85% 92.33%, 31.33% 91%, 4px 32.34%);
+    height: 150px;
     position: relative;
     overflow: hidden;
-    border-radius: 50%;
+    border-radius: 5px;
     margin: 10px;
 }
 
